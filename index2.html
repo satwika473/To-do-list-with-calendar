@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with Calendar</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                
+        <div class="calendar">
+            <h2>Calendar</h2>
+            <div class="calendar-container">
+                <div style="margin-right: 16px;"class="day-header">Sun</div>
+                <div style="margin-right: 16px;"class="day-header">Mon</div>
+                <div style="margin-right: 16px;"class="day-header">Tue</div>
+                <div style="margin-right: 16px;"class="day-header">Wed</div>
+                <div style="margin-right: 16px;"class="day-header">Thu</div>
+                <div style="margin-right: 16px;"class="day-header">Fri</div>
+                <div class="day-header">Sat</div><br></div>
+            <div id="calendar"></div>
+        </div></tr>
+        <tr width="500px" >
+        <div style="height: 750px;width: 550px;"class="todo-app">
+            
+            <div class="row">
+                <input style="margin-top: 200px;font-family: cursive;margin-left: 50px;"type="text" id="input-box" placeholder="Add your text">
+                <button style="margin-top: 200px;margin-right: 50px;"onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+               
+            </ul>
+        </div></tr>
+        </table>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>

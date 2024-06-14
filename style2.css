@@ -1,0 +1,139 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #f188cf;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.calendar {
+    max-width: 300px;
+    background: rgb(240, 217, 217);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.calendar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#calendar {
+    display: grid;
+  
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+#calendar div {
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ff2ced;
+    border-radius: 5px;
+}
+.calendar-container{
+    display:flex;
+}
+#calendar .today {
+    background: #0ba29d;
+    color: white;
+}
+
+#calendar .selected {
+    background: #d62cd1;
+}
+
+.todo-app {
+    
+    background:url("Believe.png");
+    background-size: 560px;
+    border-radius: 10px;
+}
+
+.todo-app h2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todo-app h2 img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+}
+
+.row input {
+    flex: 1;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+.row button {
+    border: none;
+    outline: none;
+    padding: 16px 40px;
+    background: linear-gradient(110deg, #c50595 40%, #4762cc 60%);
+    color: rgb(222, 190, 190);
+    font-size: 16px;
+    cursor: pointer;
+    cursor:pointer;
+    border-radius: 2px 30px 2px 30px ;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 27px;
+    text-align: center;
+    position: relative;
+    user-select: none;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+/*ul li::before {
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background: url('images/unchecked.png') no-repeat center center / cover;
+    top: 12px;
+    left: 8px;
+}
+
+ul li.checked {
+    color: #888;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    background: url('images/checked.png') no-repeat center center / cover;
+}
+*/
